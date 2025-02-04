@@ -1,4 +1,8 @@
 #!/bin/bash
+# Copyright (c) 2025 Theodor Weinreich
+# This script is published under the MIT license.
+# Further information can be found in the LICENSE file.
+
 set -e
 
 if [ "$EUID" -ne 0 ] || [ -z "$SUDO_USER" ]; then
